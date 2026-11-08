@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MulkiMark</title>
+  <meta name="description" content="MulkiMark: a semi-serious benchmark of how AI models do at Indian trivia quizzes set by the Karnataka Quiz Association.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23111'/><text x='16' y='22' font-family='Georgia' font-size='18' fill='white' text-anchor='middle'>M</text></svg>">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="wordmark" href="#">Mulki<em>Mark</em></a>
+      <nav aria-label="Sections">
+        <a href="#results">Results</a>
+        <a href="#categories">Categories</a>
+        <a href="#method">Method</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro wrap" aria-labelledby="intro-h">
+      <p class="eyebrow">A semi-serious benchmark</p>
+      <h1 id="intro-h">Can AI survive a<br><em>Bengaluru quiz?</em></h1>
+      <div class="intro-grid">
+        <p class="lede">MulkiMark puts AI models through real quizzes set by the Karnataka Quiz Association, the people behind Mahaquizzer. These are not multiple-choice exams. Each question is a small puzzle of clues, and you get there by connecting a Kannada film, a 1937 magazine article and a Scottish farm.</p>
+        <div class="intro-points">
+          <div>
+            <h2>Same paper as the humans</h2>
+            <p>Every model answers the full written quiz, one question at a time, with no web search and no second chances.</p>
+          </div>
+          <div>
+            <h2>Same rules as the humans</h2>
+            <p>Marked against the official answer key. A correct surname will do; a wrong first name will not.</p>
+          </div>
+          <div>
+            <h2>The questions stay secret</h2>
+            <p>The questions belong to their quizmasters, so we only publish the scores.</p>
+          </div>
+        </div>
+      </div>
+      <div class="headline-stats" id="headline"></div>
+    </section>
+
+    <section id="results" class="wrap block" aria-labelledby="results-h">
+      <div class="block-head">
+        <h2 id="results-h">Results</h2>
+        <p>Share of questions answered correctly. The best score in each row is highlighted.</p>
+      </div>
+      <div class="table-card">
+        <div class="table-scroll">
+          <table class="results" id="results-table"></table>
+        </div>
+      </div>
+      <p class="sample-note" id="sample-note" hidden>These are placeholder numbers. Replace <code>data.js</code> with real results to publish.</p>
+    </section>
+
+    <section id="categories" class="wrap block" aria-labelledby="cat-h">
+      <div class="block-head">
+        <h2 id="cat-h">By category</h2>
+        <p>Every quiz combined, split by subject. Who knows their Tulu cinema from their tuberculosis?</p>
+      </div>
+      <div class="legend" id="legend" aria-label="Model colours"></div>
+      <div class="cat-grid" id="cat-grid"></div>
+    </section>
+
+    <section id="method" class="wrap block method" aria-labelledby="method-h">
+      <div class="block-head">
+        <h2 id="method-h">How it works</h2>
+      </div>
+      <ol class="steps">
+        <li><span>01</span><h3>The paper</h3><p>We use the full question set of each quiz, exactly as it was handed to the human contestants.</p></li>
+        <li><span>02</span><h3>The attempt</h3><p>Each model sees one question at a time and gives a single answer. No tools, no browsing, no hints.</p></li>
+        <li><span>03</span><h3>The marking</h3><p>Answers are checked by hand against the official key, using the quiz's own rules on spellings and surnames.</p></li>
+        <li><span>04</span><h3>The verdict</h3><p>Scores are tallied by quiz and by subject. Ties stay ties. Nobody gets to appeal to the quizmaster.</p></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <p>MulkiMark is an independent fan project. It is not affiliated with or endorsed by the Karnataka Quiz Association. <span id="updated"></span></p>
+  </footer>
+
+  <div class="tooltip" id="tooltip" role="tooltip" hidden></div>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

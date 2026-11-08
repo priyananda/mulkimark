@@ -20,6 +20,14 @@ window.MULKIMARK = {
   // One row per quiz in the results table.
   quizzes: [
     {
+      name: "MindSweep 2026, Part I",
+      date: "2026",
+      note: "Arts, Food, Movies & TV, Literature · 80 questions",
+      scores: {
+        opus: { correct: 77, total: 80 },
+      },
+    },
+    {
       name: "Mahaquizzer 2025",
       date: "2025",
       note: "Written prelims, 150 questions",
@@ -50,13 +58,13 @@ window.MULKIMARK = {
     {
       name: "Literature",
       scores: {
-        opus: { correct: 12, total: 13 },
+        opus: { correct: 31, total: 33 },
       },
     },
     {
       name: "Entertainment",
       scores: {
-        opus: { correct: 18, total: 20 },
+        opus: { correct: 38, total: 40 },
       },
       quip: "Everyone has seen the films. Nobody remembers the music director.",
     },
@@ -82,9 +90,23 @@ window.MULKIMARK = {
     {
       name: "Culture & Lifestyle",
       scores: {
-        opus: { correct: 28, total: 28 },
+        opus: { correct: 19, total: 19 },
       },
-      quip: "Food, words, festivals and art: the questions you can't revise for.",
+      quip: "Words, festivals and oddities: the questions you can't revise for.",
+    },
+    {
+      name: "Arts",
+      scores: {
+        opus: { correct: 23, total: 25 },
+      },
+      quip: "Spots a Rococo brushstroke at fifty paces. Has never been inside a gallery.",
+    },
+    {
+      name: "Food & Drink",
+      scores: {
+        opus: { correct: 24, total: 24 },
+      },
+      quip: "Has never eaten a thing, and still knows where every dish got its name.",
     },
   ],
 };

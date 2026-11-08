@@ -20,6 +20,14 @@ window.MULKIMARK = {
   // One row per quiz in the results table.
   quizzes: [
     {
+      name: "MindSweep 2026, Part II",
+      date: "2026",
+      note: "Music, Sciences, Social Sciences, Sports & Games · 80 questions",
+      scores: {
+        opus: { correct: 78, total: 80 },
+      },
+    },
+    {
       name: "MindSweep 2026, Part I",
       date: "2026",
       note: "Arts, Food, Movies & TV, Literature · 80 questions",
@@ -38,20 +46,21 @@ window.MULKIMARK = {
   ],
 
   // One drill-down section per category, across all quizzes combined.
-  // Categories are assigned by hand when marking; the quiz itself has none.
+  // Categories are assigned by hand when marking; quizzes with their own topics
+  // map onto them (e.g. MindSweep's Social Sciences counts as History & Society).
   // `quip` is optional commentary shown under the chart.
   categories: [
     {
       name: "Science",
       scores: {
-        opus: { correct: 20, total: 21 },
+        opus: { correct: 40, total: 41 },
       },
       quip: "Knows the half-life of everything, including your patience.",
     },
     {
       name: "Sport",
       scores: {
-        opus: { correct: 14, total: 14 },
+        opus: { correct: 32, total: 34 },
       },
       quip: "Can name every Ranji Trophy winner. Still thinks LBW is negotiable.",
     },
@@ -64,9 +73,16 @@ window.MULKIMARK = {
     {
       name: "Entertainment",
       scores: {
-        opus: { correct: 38, total: 40 },
+        opus: { correct: 31, total: 33 },
       },
       quip: "Everyone has seen the films. Nobody remembers the music director.",
+    },
+    {
+      name: "Music",
+      scores: {
+        opus: { correct: 27, total: 27 },
+      },
+      quip: "Perfect pitch, no ears.",
     },
     {
       name: "India & Karnataka",
@@ -76,23 +92,10 @@ window.MULKIMARK = {
       quip: "The real test: knowing which Bengaluru road was renamed last week.",
     },
     {
-      name: "Business & Brands",
+      name: "History & Society",
       scores: {
-        opus: { correct: 10, total: 11 },
+        opus: { correct: 46, total: 46 },
       },
-    },
-    {
-      name: "History & Politics",
-      scores: {
-        opus: { correct: 26, total: 26 },
-      },
-    },
-    {
-      name: "Culture & Lifestyle",
-      scores: {
-        opus: { correct: 19, total: 19 },
-      },
-      quip: "Words, festivals and oddities: the questions you can't revise for.",
     },
     {
       name: "Arts",
@@ -107,6 +110,19 @@ window.MULKIMARK = {
         opus: { correct: 24, total: 24 },
       },
       quip: "Has never eaten a thing, and still knows where every dish got its name.",
+    },
+    {
+      name: "Business & Brands",
+      scores: {
+        opus: { correct: 10, total: 11 },
+      },
+    },
+    {
+      name: "Culture & Lifestyle",
+      scores: {
+        opus: { correct: 19, total: 19 },
+      },
+      quip: "Words, festivals and oddities: the questions you can't revise for.",
     },
   ],
 };

@@ -17,7 +17,7 @@ window.MULKIMARK = {
     { id: "haiku", name: "Haiku 5.5", maker: "Anthropic" },
   ],
 
-  // One row per quiz in the results table.
+  // One row per quiz in the results table, newest first.
   quizzes: [
     {
       name: "MindSweep 2026, Part II",
@@ -43,6 +43,30 @@ window.MULKIMARK = {
         opus: { correct: 145, total: 150 },
       },
     },
+    {
+      name: "MindSweep 2025, Part II",
+      date: "2025",
+      note: "Music, Sciences, Social Sciences, Sports & Games · 100 questions",
+      scores: {
+        opus: { correct: 95, total: 100 },
+      },
+    },
+    {
+      name: "MindSweep 2025, Part I",
+      date: "2025",
+      note: "Arts, Food, Movies & TV, Literature · 100 questions",
+      scores: {
+        opus: { correct: 98, total: 100 },
+      },
+    },
+    {
+      name: "Mahaquizzer 2024",
+      date: "2024",
+      note: "Written prelims, 150 questions",
+      scores: {
+        opus: { correct: 147, total: 150 },
+      },
+    },
   ],
 
   // One drill-down section per category, across all quizzes combined.
@@ -53,74 +77,74 @@ window.MULKIMARK = {
     {
       name: "Science",
       scores: {
-        opus: { correct: 40, total: 41 },
+        opus: { correct: 79, total: 81 },
       },
       quip: "Knows the half-life of everything, including your patience.",
     },
     {
       name: "Sport",
       scores: {
-        opus: { correct: 32, total: 34 },
+        opus: { correct: 63, total: 68 },
       },
       quip: "Can name every Ranji Trophy winner. Still thinks LBW is negotiable.",
     },
     {
       name: "Literature",
       scores: {
-        opus: { correct: 31, total: 33 },
+        opus: { correct: 66, total: 68 },
       },
     },
     {
       name: "Entertainment",
       scores: {
-        opus: { correct: 31, total: 33 },
+        opus: { correct: 73, total: 77 },
       },
       quip: "Everyone has seen the films. Nobody remembers the music director.",
     },
     {
       name: "Music",
       scores: {
-        opus: { correct: 27, total: 27 },
+        opus: { correct: 60, total: 61 },
       },
       quip: "Perfect pitch, no ears.",
     },
     {
       name: "India & Karnataka",
       scores: {
-        opus: { correct: 17, total: 17 },
+        opus: { correct: 34, total: 34 },
       },
       quip: "The real test: knowing which Bengaluru road was renamed last week.",
     },
     {
       name: "History & Society",
       scores: {
-        opus: { correct: 46, total: 46 },
+        opus: { correct: 91, total: 92 },
       },
     },
     {
       name: "Arts",
       scores: {
-        opus: { correct: 23, total: 25 },
+        opus: { correct: 58, total: 62 },
       },
       quip: "Spots a Rococo brushstroke at fifty paces. Has never been inside a gallery.",
     },
     {
       name: "Food & Drink",
       scores: {
-        opus: { correct: 24, total: 24 },
+        opus: { correct: 55, total: 55 },
       },
       quip: "Has never eaten a thing, and still knows where every dish got its name.",
     },
     {
       name: "Business & Brands",
       scores: {
-        opus: { correct: 10, total: 11 },
+        opus: { correct: 19, total: 20 },
       },
     },
     {
       name: "Culture & Lifestyle",
       scores: {
-        opus: { correct: 19, total: 19 },
+        opus: { correct: 42, total: 42 },
       },
       quip: "Words, festivals and oddities: the questions you can't revise for.",
     },

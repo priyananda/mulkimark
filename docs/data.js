@@ -20,6 +20,14 @@ window.MULKIMARK = {
   // One row per quiz in the results table, newest first.
   quizzes: [
     {
+      name: "AsiaSweep 2025",
+      date: "2025",
+      note: "50 questions, 75 points (25 singles, 25 two-parters)",
+      scores: {
+        opus: { correct: 71, total: 75 },
+      },
+    },
+    {
       name: "MindSweep 2026, Part II",
       date: "2026",
       note: "Music, Sciences, Social Sciences, Sports & Games · 80 questions",
@@ -77,34 +85,34 @@ window.MULKIMARK = {
     {
       name: "Science",
       scores: {
-        opus: { correct: 79, total: 81 },
+        opus: { correct: 85, total: 87 },
       },
       quip: "Knows the half-life of everything, including your patience.",
     },
     {
       name: "Sport",
       scores: {
-        opus: { correct: 63, total: 68 },
+        opus: { correct: 64, total: 69 },
       },
       quip: "Can name every Ranji Trophy winner. Still thinks LBW is negotiable.",
     },
     {
       name: "Literature",
       scores: {
-        opus: { correct: 66, total: 68 },
+        opus: { correct: 72, total: 74 },
       },
     },
     {
       name: "Entertainment",
       scores: {
-        opus: { correct: 73, total: 77 },
+        opus: { correct: 84, total: 88 },
       },
       quip: "Everyone has seen the films. Nobody remembers the music director.",
     },
     {
       name: "Music",
       scores: {
-        opus: { correct: 60, total: 61 },
+        opus: { correct: 61, total: 62 },
       },
       quip: "Perfect pitch, no ears.",
     },
@@ -118,33 +126,33 @@ window.MULKIMARK = {
     {
       name: "History & Society",
       scores: {
-        opus: { correct: 91, total: 92 },
+        opus: { correct: 111, total: 115 },
       },
     },
     {
       name: "Arts",
       scores: {
-        opus: { correct: 58, total: 62 },
+        opus: { correct: 61, total: 66 },
       },
       quip: "Spots a Rococo brushstroke at fifty paces. Has never been inside a gallery.",
     },
     {
       name: "Food & Drink",
       scores: {
-        opus: { correct: 55, total: 55 },
+        opus: { correct: 65, total: 65 },
       },
       quip: "Has never eaten a thing, and still knows where every dish got its name.",
     },
     {
       name: "Business & Brands",
       scores: {
-        opus: { correct: 19, total: 20 },
+        opus: { correct: 24, total: 25 },
       },
     },
     {
       name: "Culture & Lifestyle",
       scores: {
-        opus: { correct: 42, total: 42 },
+        opus: { correct: 50, total: 50 },
       },
       quip: "Words, festivals and oddities: the questions you can't revise for.",
     },

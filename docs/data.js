@@ -20,14 +20,6 @@ window.MULKIMARK = {
   // One row per quiz in the results table, newest first.
   quizzes: [
     {
-      name: "AsiaSweep 2025",
-      date: "2025",
-      note: "50 questions, 75 points (25 singles, 25 two-parters)",
-      scores: {
-        opus: { correct: 71, total: 75 },
-      },
-    },
-    {
       name: "MindSweep 2026, Part II",
       date: "2026",
       note: "Music, Sciences, Social Sciences, Sports & Games · 80 questions",
@@ -41,6 +33,14 @@ window.MULKIMARK = {
       note: "Arts, Food, Movies & TV, Literature · 80 questions",
       scores: {
         opus: { correct: 77, total: 80 },
+      },
+    },
+    {
+      name: "AsiaSweep 2025",
+      date: "2025",
+      note: "50 questions, 75 points (25 singles, 25 two-parters)",
+      scores: {
+        opus: { correct: 71, total: 75 },
       },
     },
     {
